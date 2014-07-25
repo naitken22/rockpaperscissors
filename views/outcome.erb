@@ -1,10 +1,16 @@
-RESULTS:
+<h1>Results:</h1>
 <% if @game.winner == "Draw" %>
- <h1> it was a draw </h1>
+ <h2> It was a draw </h2>
  <% elsif @game.winner.name == "computer" %>
- <h1> You lost, the compute won with <%= @game.winner.pick %></h1>
+ <h1> You lost, the computer won with <%= @game.winner.pick %></h1>
 <% else %>
-<h1> You won, with <%= @game.winner.pick %> </h1>
+<h1> You won with <%= @game.winner.pick %> </h1>
 <%end%>
 
-
+<img id= "results" src=<%="/images/#{@game.player1.pick.downcase}.png"%>>
+<img id= "results" src=<%="/images/#{@game.player2.pick.downcase}.png"%>>
+<p>
+<form action="/register" method="POST">
+<button name="register" value="submit" class="playagain">Play Again</button> 
+</form>
+</p>

@@ -8,7 +8,7 @@ class Game
 
 	BEATS = {rock: :scissors, scissors: :paper, paper: :rock}
 
-	attr_reader :players, :player1, :player2
+	attr_reader :players, :player1, :player2, :pick
 
 	def winner
 		return "Draw" if player1.pick == player2.pick

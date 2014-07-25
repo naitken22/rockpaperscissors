@@ -1,0 +1,97 @@
+body {
+
+	background-image: url("http://mixstuff.ru/wp-content/uploads/2014/02/the-wave-is-a-sandstone-formation-located-near-the-arizona-utah-border-the-lines-are-formed-by-erosion-different-layers-of-rock-erode-away-at-different-rates.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+
+}
+
+content {
+
+		font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    width: 70%;
+    left: 15%;
+    position: fixed;
+    top: 10%;
+    height: 80%;
+		background-color: #FFFFFF;
+		border-radius: 15px;
+		text-align: center
+}
+
+a {
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	font-size: 35px;
+	position: relative;
+  top: 45%;
+  text-decoration: none
+
+}
+
+img { width:190px; 
+			height:190px; 
+			opacity: 0.3; 
+			filter: alpha(opacity=100); 
+		} 
+
+img:hover { opacity: 1;
+					 filter: alpha(opacity=30)
+					} 
+
+.playagain {
+	-moz-box-shadow:inset 0px 0px 1px -1px #dcecfb;
+	-webkit-box-shadow:inset 0px 0px 1px -1px #dcecfb;
+	box-shadow:inset 0px 0px 1px -1px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:110px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 8px 24px #528ecc;
+}
+
+h2 {
+	font-size: 25px
+
+}
+
+#results {
+	opacity: 1
+}
+
+#start_play{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  	top: 45%;
+    }
+
+ #take_name{
+ 	width: 300px;
+ }
+
