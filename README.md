@@ -1,7 +1,7 @@
 Rock-Paper-Scissors
 ===================
 
-![](public/images/rpsscreenshot.png)
+![](public/images/rps-screenshot.png)
 
 
 ###Specification
